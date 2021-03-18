@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+#ContPrincipal {
+	background-color: #95ECFB; /* celeste */
+	margin: 0;
+}
+
+/* ESTILOS PARA EL HEADER */
+
+.ContHeader {
+	background-color: #367298; /* azul oscuro */
+	text-align: center;
+	padding: 20px;
+}
+
+
+/** ESTILOS DE LAS PELICULAS**/
+
+.ContPeliculasCompleto {
+	background-color: #00FFDB; /** color cian **/
+}
+
+.ContPelicula {
+	background-color: #F144E6; /**rosado**/
+	margin: 20px auto 20px auto;
+	width: 80%;
+	padding: 20px;
+	outline-style: dotted;
+	outline-color: #3E3C3C;
+	outline-width: 3px;
+	display: flow-root;
+}
+
+.MovieFoto {
+	outline-style: dotted;
+	outline-color: #3E3C3C;
+	outline-width: 3px;
+	float: left;
+	background-color: aquamarine;
+	
+}
+
+.MovTitle {
+	width: 80%;
+	outline-style: dotted;
+	outline-color: #3E3C3C;
+	outline-width: 3px;
+	float: left;
+	background-color: aquamarine;
+	padding: 20px;
+	
+}
+
+
+.MovieDescription {
+	width: 80%;
+	outline-style: dotted;
+	outline-color: #3E3C3C;
+	outline-width: 3px;
+	float: left;
+	background-color: aquamarine;
+	padding: 20px;
+
+}
+
+.Favoritos {
+	outline-style: dotted;
+	outline-color: #3E3C3C;
+	outline-width: 3px;
+	float: left;
+	width: 100%;
+}
+
+.LasFotos {
+	background-color: #E0D043;
+	padding: 5%;
+	float: left;
+	width: 23.33%;
+	text-align: center;
+}
+
+.limpiador {
+	clear: both;
+}
+
+.ContFooter {
+	width: 90%;
+	padding: 5%;
+	background-color: blueviolet;
+	font-size: 50px;
+	outline: 20px solid #000000;
+			
+}
+
+.FooterNombre {
+	float: left;
+}
+
+.FooterCarne{
+	float: right;
+}
