@@ -2,58 +2,76 @@
 /* CSS Document */
 
 body {
+   	background-image: url("../img/fondo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+    font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 
 #ContPrincipal {
-	background-color: #95ECFB; /* celeste */
-	margin: 0;
+    background-image: url("../img/fondo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    margin: 0;
 }
 
 /* ESTILOS PARA EL HEADER */
 
 .ContHeader {
-	background-color: #367298; /* azul oscuro */
-	text-align: center;
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+	text-align: left;
 	padding: 20px;
+    
 }
 
 
 /** ESTILOS DE LAS PELICULAS**/
 
 .ContPeliculasCompleto {
-	background-color: #00FFDB; /** color cian **/
+	background-color: #04316E; /** color azul **/
+    
+	background-image: url("../img/fondo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+    
 }
 
 .ContPelicula {
-	background-color: #F144E6; /**rosado**/
+	background-color: hsla(225,9%,18%,0.87); /**negro**/
 	margin: 20px auto 20px auto;
 	width: 80%;
 	padding: 20px;
-	outline-style: dotted;
-	outline-color: #3E3C3C;
+	outline-style: solid;
+	outline-color: hsla(226,21%,28%,1.00);
 	outline-width: 3px;
 	display: flow-root;
 }
 
 .MovieFoto {
-	outline-style: dotted;
-	outline-color: #3E3C3C;
-	outline-width: 3px;
 	float: left;
-	background-color: aquamarine;
+	background-color: hsla(225,9%,18%,0.87); /**negro**/
 	
 }
 
 .MovTitle {
 	width: 80%;
-	outline-style: dotted;
-	outline-color: #3E3C3C;
-	outline-width: 3px;
 	float: left;
-	background-color: aquamarine;
+	background-color: hsla(226,88%,63%,0.52); /**azul**/
 	padding: 20px;
 	
 }
@@ -61,25 +79,21 @@ body {
 
 .MovieDescription {
 	width: 80%;
-	outline-style: dotted;
-	outline-color: #3E3C3C;
-	outline-width: 3px;
+    line-height: 24px;
 	float: left;
-	background-color: aquamarine;
+    background-color: hsla(226,88%,63%,0.52); /**azul**/
+	 color: #77C7F4;  /** celeste **/
 	padding: 20px;
 
 }
 
 .Favoritos {
-	outline-style: dotted;
-	outline-color: #3E3C3C;
-	outline-width: 3px;
 	float: left;
 	width: 100%;
 }
 
 .LasFotos {
-	background-color: #E0D043;
+	background-color: hsla(226,26%,22%,0.87); /**azul**/
 	padding: 5%;
 	float: left;
 	width: 23.33%;
@@ -91,11 +105,13 @@ body {
 }
 
 .ContFooter {
+    color: hsla(210,12%,42%,1.00);
 	width: 90%;
 	padding: 5%;
-	background-color: blueviolet;
-	font-size: 50px;
+	background-color: hsla(235,58%,4%,0.88);
+	font-size: 20px;
 	outline: 20px solid #000000;
+    margin-top: 100px;
 			
 }
 
@@ -105,4 +121,15 @@ body {
 
 .FooterCarne{
 	float: right;
+}
+
+h2 {
+    color: #F8C902;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    color: #6484EC;
+    font-family: 'Lora', serif;
+    font-size: 100px;
 }
